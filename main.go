@@ -38,4 +38,5 @@ func main() {
 	data1, err := json.MarshalIndent(m, "", "   ")
 	printErr("print struct", err)
 	fmt.Println(string(data1))
+
 }
